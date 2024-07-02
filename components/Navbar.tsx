@@ -9,12 +9,12 @@ export default function Navbar({className}:{className?:string}){
     
   const socials = [
     {
-      Link: "https://www.linkedin.com/in/shubhambhati9456957454/",
+      Link: "https://www.linkedin.com/in/shraddham28/",
       Label: "LinkedIn",
       Icon: SiLinkedin,
     },
     {
-      Link: "https://github.com/shubhambhati18",
+      Link: "https://github.com/Shraddha-Shuk",
       Label: "Github",
       Icon: SiGithub,
     }
@@ -23,7 +23,7 @@ export default function Navbar({className}:{className?:string}){
   return(
 
     <nav className={cn('py-10 flex justify-between items-center',className)}>
-        <h1 className='text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2'>Shubham Bhati 👩🏻‍💻</h1>
+        <h1 className='text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2'>Shraddha Shukla 👩🏻‍💻</h1>
         <div className='flex items-center gap-5'>
           {socials.map((social,index)=>{
             

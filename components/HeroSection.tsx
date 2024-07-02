@@ -9,14 +9,14 @@ export default function HeroSection() {
     <div className='min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between'>
       <div className='space-y-10 text-center lg:text-left'>
         <h1 className='text-4xl lg:text-7xl font-bold'>Nice to meet you! 👋 <br/>
-            <span className='underline underline-offset-8 decoration-green-500'>{"I'm Shubham."}</span>
+            <span className='underline underline-offset-8 decoration-green-500'>{"I'm Shraddha."}</span>
         </h1>
         <p>
             {
-                "I'm a Front-end Developer and a 4th year B.tech (IT) student."
+                "I'm a MERN STACK Developer passionate about building a web applications that users love."
             }
         </p>
-        <Link href={"mailto:it21103@glbitm.ac.in"} className='inline-block group'>
+        <Link href={"mailto:shraddhashuk28@gmail.com"} className='inline-block group'>
           <Title text="Contact Me📧"/>
         </Link>
       </div> 
