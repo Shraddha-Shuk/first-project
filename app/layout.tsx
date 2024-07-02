@@ -8,19 +8,19 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 export const metadata: Metadata = {
 	metadataBase: new URL("http://localhost:3000"),
 
-	title: "Shraddha",
+	title: "Shubham",
 	authors: {
 		name: "chensokheng",
 	},
 
 	description:
-		"I'm a MERN STACK Developer passionate about building a web applications that users love.",
+		"I'm a Front-end Developer and a 4th year B.tech (IT) student.",
 	openGraph: {
-		title: "Shraddha",
+		title: "Shubham",
 		description:
-			"I'm a MERN STACK Developer passionate about building a web applications that users love.",
+			"I'm a Front-end Developer and a 4th year B.tech (IT) student.",
 		url: "http://localhost:3000",
-		siteName: "Shraddha",
+		siteName: "Shubham",
 		images: "/Screenshot(23).png",
 		type: "website",
 	},
